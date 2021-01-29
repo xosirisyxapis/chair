@@ -12,18 +12,19 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="./style.css" media="screen"/>
 </head>
-<body>
-	<div id="particles-js"></div>
-	<h1>La Chair
-	</h1>
-	<div class="main-container">
+<body style="z-index: 0;">
+	<div id="particles-js" style="z-index: 0;"></div>
+	<div style="padding-top: 20px;">
+		<h1>La Chair</h1>
+	</div>
+	<div class="main-container" style="z-index: 1; position: relative;">
 		<a href="escenario/index.html">escenario</a>
 		<a href="cine/index.html">cine</a>
 		<a href="fotos/index.html">fotos</a>
 		<a href="biografia/index.html">biografías</a>
 	</div>
-	<div>
-		<img src="img/chair_black.jpg" alt="" class="card-img">
+	<div style="position: relative; z-index: -1;">
+		<img src="img/chair_black.jpg" alt="">
 	</div>
 </div>
 
